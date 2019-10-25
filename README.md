@@ -45,11 +45,11 @@ this will filter the archetype list on my groupId
 mvn archetype:generate                                            \
    -DarchetypeGroupId=nl.ivonet                                   \
    -DarchetypeArtifactId=jakartaee8-payara-microprofile-archetype \
-   -DarchetypeVersion=1.3                                         \
-   -DgroupId=nl.ivonet                                            \
+   -DarchetypeVersion=1.0                                         \
+   -DgroupId=[GROUP ID]                                           \
    -DartifactId=[PROJECT_NAME]                                    \
    -Ddocker-hub-name=[YOUR_DOCKER_HUB_NAME]                       \
-   -Dversion=1.0                                                  \
+   -Dversion=1.0-SNAPSHOT                                         \
    -Darchetype.interactive=false                                  \
    --batch-mode
 ```
