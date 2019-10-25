@@ -7,7 +7,7 @@
     </parent>
     <groupId>nl.ivonet</groupId>
     <artifactId>jakartaee8-payara-microprofile-archetype</artifactId>
-    <version>1.4-SNAPSHOT</version>
+    <version>1.0-SNAPSHOT</version>
     <name>jakartaee8-payara-microprofile-archetype</name>
     <description>Jakarta EE 8 / Payara 5 / Microprofile 3 - project minimalistic quickstart template.</description>
     <url>https://www.ivonet.nl</url>
