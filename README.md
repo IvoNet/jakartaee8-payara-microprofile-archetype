@@ -3,13 +3,13 @@
 A quickstart maven archetype for creating greenfield JakartaEE 8 projects
 working with Payara 5 and MicroProfile 3
 
-You can find the archetype on [maven central](http://ivo2u.nl/tv) 
+You can find the archetype on [maven central](http://ivo2u.nl/os) 
 
-I've also written a blog about it on [IvoNet.nl](http://ivo2u.nl/ty)
+I've also written a blog about it on [IvoNet.nl](http://ivo2u.nl/oj)
 
 # Get started
 
-* [Jakarta EE - Initializr](http://ivo2u.nl/oq)
+* [JavaEE / JakartaEE - Initializr](http://ivo2u.nl/oq)
 
 ## Create Java EE 8 Project from mvn central repo
 
@@ -17,7 +17,7 @@ I've also written a blog about it on [IvoNet.nl](http://ivo2u.nl/ty)
 mvn archetype:generate \
     -DarchetypeGroupId=nl.ivonet \
     -DarchetypeArtifactId=jakartaee8-payara-microprofile-archetype \
-    -DarchetypeVersion=1.3 -U
+    -DarchetypeVersion=1.0 -U
 ```
 
 ## Install in local repo
@@ -26,10 +26,9 @@ mvn archetype:generate \
 mvn dependency:get \
    -DgroupId=nl.ivonet \
    -DartifactId=jakartaee8-payara-microprofile-archetype \
-   -Dversion=1.3
+   -Dversion=1.0
    
 mvn archetype:crawl
-   
 ```
 
 ## Run if offline available
