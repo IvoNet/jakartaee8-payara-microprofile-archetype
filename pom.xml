@@ -7,7 +7,7 @@
     </parent>
     <groupId>nl.ivonet</groupId>
     <artifactId>jakartaee8-payara-microprofile-archetype</artifactId>
-    <version>1.1</version>
+    <version>1.2-SNAPSHOT</version>
     <name>jakartaee8-payara-microprofile-archetype</name>
     <description>Jakarta EE 8 / Payara 5 / Microprofile 3 - project minimalistic quickstart template.</description>
     <url>https://www.ivonet.nl</url>
@@ -105,7 +105,7 @@
         <connection>scm:git:git@github.com:IvoNet/jakartaee8-payara-microprofile-archetype.git</connection>
         <developerConnection>scm:git:git@github.com:IvoNet/jakartaee8-payara-microprofile-archetype.git</developerConnection>
         <url>https://github.com/IvoNet/jakartaee8-payara-microprofile-archetype</url>
-        <tag>v1.1</tag>
+        <tag>HEAD</tag>
     </scm>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
