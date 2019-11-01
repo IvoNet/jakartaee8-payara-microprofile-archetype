@@ -14,7 +14,7 @@ if [ $? -eq 1 ] || [ "$RUNNING" == "false" ]; then
      -p 8080:8080 \
      -p 8181:8181 \
      -p 4848:4848 \
-     -v "$(pwd)/artifact:/autodeploy" \
+     -v "$(pwd)/artifact:/opt/payara/payara5/glassfish/domains/domain1/autodeploy" \
      ivonet/payara:5.193.1
 
     mvn clean package
